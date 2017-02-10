@@ -75,7 +75,7 @@ void sendHumidity(int value)
     String request = "GET " ;
     request = request + "/input/post.json?node=3&json={humidity:";
     request = request + value;
-    request = request + "}&apikey=';
+    request = request + "}&apikey=";
     request = request + apikey ;
     request = request + "HTTP/1.1";
 
